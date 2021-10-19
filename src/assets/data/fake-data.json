@@ -1,0 +1,37 @@
+{
+    "publication":{
+        "p0001":{
+            "idUser": 1,
+            "descripction": "lorem ipsunmruicnr ",
+            "date": "17/02/2021",
+            "imageUrl": "http://firebase/img.jpg",
+            "userPhothoUrl": "http://firebase/user1.jpg"
+        },
+
+        "p0002":{
+            "idUser": 2,
+            "descripction": "lorem ipsunmruicnr ",
+            "date": "17/02/2021",
+            "imageUrl": "http://firebase/img.jpg",
+            "userPhothoUrl": "http://firebase/user1.jpg"
+        },
+
+        "p0003":{
+            "idUser": 3,
+            "descripction": "lorem ipsunmruicnr ",
+            "date": "17/02/2021",
+            "imageUrl": "http://firebase/img.jpg",
+            "userPhothoUrl": "http://firebase/user1.jpg"
+        },
+
+        "p0004":{
+            "idUser": 4,
+            "descripction": "lorem ipsunmruicnr ",
+            "date": "17/02/2021",
+            "imageUrl": "http://firebase/img.jpg",
+            "userPhothoUrl": "http://firebase/user1.jpg"
+        }
+
+
+    }
+}

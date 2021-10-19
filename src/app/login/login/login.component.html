@@ -1,0 +1,12 @@
+<h1>Login funcionando correctamente</h1>
+
+<button (click)="create()">Crear</button>
+
+<div class="login">
+    <form #form="ngForm" (ngSubmit)="login(form)">
+        <input type="email" name="email" ngModel placeholder="email addres">
+        <input type="password" name="password" ngModel placeholder="password">
+        <button type="submit">Iniciar</button>
+    </form>
+    <button (click)="onCreateNewAcount()">Crear Cuenta</button>
+</div>
