@@ -47,7 +47,7 @@ export class LoginComponent implements OnInit {
         returnSecureToken: true
       }).subscribe(res => {
         console.log('Response: ',res);
-        this.router.navigate(['/pages']);
+        this.router.navigate(['pages']);
       });
       
     }
