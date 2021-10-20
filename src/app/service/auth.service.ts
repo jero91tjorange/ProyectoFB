@@ -14,7 +14,7 @@ export class AuthService {
     return this.http.post(`${this.url}/v1/accounts:signInWithPassword?key=${this.key}`, body).pipe(//con el pipe itereitor
       
       map((res: any) => {
-        this.authSuccess(res.idToken, res.localId)
+        this.authSuccess(res.idToken, res.localId)//idToken y localId es como se reciben los valores que llegan como respuesta del login
         return res;
       })
     );
